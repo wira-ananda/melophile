@@ -4,12 +4,13 @@ import Home from "../home/page";
 import FakeDatabase from "./db.json";
 import axios from "axios";
 
-export default function SeveralArtist(props) {
-  const [artistData, setArtistData] = useState(null);
+export default function ApiTest(props) {
+  const [apiData, setapiData] = useState(null);
   const token = props.token;
+  const endPoint = props.endPoint;
 
-  let getArtistData = async () => {
-    const res = await axios.get(FakeDatabase.severalArtists, {
+  let getapiData = async () => {
+    const res = await axios.get(endPoint, {
       headers: {
         Authorization: "Bearer " + token,
         "Content-Type": "application.json",
@@ -18,16 +19,11 @@ export default function SeveralArtist(props) {
 
     const data = await res.data;
     console.log(data);
-    setArtistData(data);
+    setapiData(data);
   };
 
   useEffect(() => {
-    getArtistData();
+    getapiData();
   }, [token && FakeDatabase]);
-
-  return (
-    <>
-      <Home artistData={artistData} token={token} />
-    </>
-  );
+  return { apiData };
 }
