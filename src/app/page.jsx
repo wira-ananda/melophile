@@ -46,6 +46,7 @@ export default function App(props) {
             >
               LOGIN
             </a>
+            <a>WIRA</a>
           </div>
         </div>
       ) : (
