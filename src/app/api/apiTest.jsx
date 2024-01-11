@@ -10,16 +10,20 @@ export default function ApiTest(props) {
   const endPoint = props.endPoint;
 
   let getapiData = async () => {
-    const res = await axios.get(endPoint, {
-      headers: {
-        Authorization: "Bearer " + token,
-        "Content-Type": "application.json",
-      },
-    });
+    try {
+      const res = await axios.get(endPoint, {
+        headers: {
+          Authorization: "Bearer " + token,
+          "Content-Type": "application.json",
+        },
+      });
 
-    const data = await res.data;
-    console.log(data);
-    setapiData(data);
+      const data = await res.data;
+      console.log(data);
+      setapiData(data);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   useEffect(() => {

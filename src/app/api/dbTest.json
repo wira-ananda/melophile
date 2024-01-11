@@ -1,0 +1,94 @@
+
+{"Artist" : [
+  {
+    "name": "Rex Orange County",
+    "genre": "Pop",
+    "popularity": 1,
+    "best": "Best Friend"
+  },
+  {
+    "name": "Billie Eilish",
+    "genre": "Mellow",
+    "popularity": 2,
+    "best": "idontwannabeyouanymore"
+  },
+  {
+    "name": "Queen",
+    "genre": "Rock",
+    "popularity": 3,
+    "best": "Bohemian Rhapsody"
+  },
+  {
+    "name": "Coldplay",
+    "genre": "Pop Adventure",
+    "popularity": 4,
+    "best": "Viva La Vida"
+  },
+  {
+    "name": "Imagine Dragons",
+    "genre": "Pop",
+    "popularity": 5,
+    "best": "Believer"
+  },
+  {
+    "name": "Bruno Mars",
+    "genre": "Pop",
+    "popularity": 6,
+    "best": "When I Was Your Man"
+  },
+  {
+    "name": "Maroon 5",
+    "genre": "Pop",
+    "popularity": 7,
+    "best": "Animals"
+  },
+  {
+    "name": "Adele",
+    "genre": "Mellow",
+    "popularity": 8,
+    "best": "Set Fire To The Rain"
+  },
+  {
+    "name": "Charlie Puth",
+    "genre": "Pop",
+    "popularity": 9,
+    "best": "Cheating On You"
+  },
+  {
+    "name": "Lewis Capaldi",
+    "genre": "Pop",
+    "popularity": 10,
+    "best": "Someone You Loved"
+  },
+  {
+    "name": "James Arthur",
+    "genre": "Pop",
+    "popularity": 11,
+    "best": "Can I Be Him"
+  },
+  {
+    "name": "NIKI",
+    "genre": "Pop",
+    "popularity": 12,
+    "best": "Take A Chance With Me"
+  },
+  {
+    "name": "Ed Sheeran",
+    "genre": "Pop",
+    "popularity": 13,
+    "best": "Shape Of You"
+  },
+  {
+    "name": "BLACKPINK",
+    "genre": "Pop",
+    "popularity": 14,
+    "best": "Shut Down"
+  },
+  {
+    "name": "The 1975",
+    "genre": "Mellow",
+    "popularity": 15,
+    "best": "About You"
+  }
+]
+}
